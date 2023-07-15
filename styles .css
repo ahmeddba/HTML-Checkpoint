@@ -1,0 +1,87 @@
+p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+h1{
+    color: lightblue;
+    font-size: 50px;
+}
+a{
+display: inline;
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}
+a:hover{
+    display: inline;
+        margin: 0 20px;
+        text-decoration: none;
+        font-size: x-large;
+        font-weight: 700;
+        color: rgb(31, 78, 233);
+        cursor: pointer;
+    }
+header{
+
+  position: relative;
+  top: -10px;
+  right: -10px;
+  left: -10px;
+    width: 101%;
+    height: 400px;
+    background-image: url("b1.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+}
+body{
+    color: white;
+    background-color:black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.headd{
+margin: 10px 30%;
+}
+
+.p1{
+color: whitesmoke;
+font-size: 15px;
+font-weight: 900;
+}
+.p2{
+color: lightblue;
+font-size: 35px;
+font-weight: bolder;
+}
+.p3{
+    color: whitesmoke;
+    font-size: 35px;
+    font-weight: bolder;
+    }
+
+.info{
+ margin: 10em;
+}
+section{
+    margin-bottom: 20px;
+}
+
+ul li{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#skillss{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}

@@ -4,22 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        p{
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 18px;
-            font-weight: 500;
-        }
-        h1{
-            color: lightblue;
-        }
-    </style>
+    <link rel="stylesheet" href="./styles .css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body style="height: 3000px;">
+<body >
 <!-- header and navbar -->
-<header>
-    <nav>
-        <img src="ah.png" alt="logo of the page" width="150">
+<header id="top">
+    <nav class="headd">
 <!-- Links of navigation -->
 <a href="">Home</a>
 <a href="#About">About</a>
@@ -28,19 +21,26 @@
 <a href="#contact">Contact</a>
 
     </nav>
+    <div class="info">
+    <p class="p1">Hi , my name is </p>
+    <p class="p2">Ahmed Ben Abid.</p>
+    <p class="p3">I build things for the web. </p>
+</div>
 </header>
+
 <!-- About Section -->
 <section id="About">
     <h1>About me</h1>
     <!-- A div tag contains details about me and my image -->
-    <div style="display: flex;flex-direction: row;justify-content: space-between;align-items: center;">
+    <div style="display: flex;flex-direction: row;justify-content: space-around;align-items: center;">
     <p style="display: inline-block;width: 400px;">dfgeyzhfkzejfhjrfzekfrhzehfkzehkfjhzekjfhzlekfjlr,
     hgryjenrgjhrjkgerfjkrgfkjerhfn
 rfhduyfgrfhgrhfkjerghherguerjkhgrejgheirkghr
 rvhjgrjyvgrfhehrf,gherj,gfhrejhgfebjh</p>
-    <img src="me.jpg" alt="a photo of myself" width="400">
+    <img style="border: 3px solid white;border-radius: 200px;" src="me.jpg" alt="a photo of myself" width="400">
 </div>
 </section>
+<hr>
 <!-- work Section -->
 <section id="Work" style="margin-top: 25px;">
     <h1>Work and experience</h1>
@@ -48,11 +48,14 @@ rvhjgrjyvgrfhehrf,gherj,gfhrejhgfebjh</p>
 No current work still studying and improving my skills.
     </p>
 </section>
+<br>
+<hr>
 <!-- Resume Section -->
 <section id="Resume" style="margin-top: 25px;">
     <h1> Skills</h1>
     <!-- unordered list for my skills -->
-   <ul type="square">
+    <div id="skillss">
+   <ul type="square" style="display: inline-block;flex: 1;">
     <li>HTML</li>
     <li>Css</li>
     <li>JS</li>
@@ -60,12 +63,14 @@ No current work still studying and improving my skills.
     <li>symfony</li>
    </ul>
    <!-- a video from youtube containing my last project -->
-   <iframe style="margin-top: 10px;" width="560" height="315" src="https://www.youtube.com/embed/mK-0Q7HPaJI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+   <iframe style="margin-top: 10px;flex: 1;" width="560" height="315" src="https://www.youtube.com/embed/mK-0Q7HPaJI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 </section>
+<br>
+<hr>
 <!-- footer for the contact section -->
 <h1 id="contact" >Contact and feedbacks</h1>
-<footer  style="display: flex;flex-direction: row;align-items: center;">
+<footer  style="display: flex;flex-direction: row;align-items: center;margin-bottom: 30px;">
 
     <!-- a div for personal information -->
     <div style="width: 300px;">
@@ -81,10 +86,14 @@ No current work still studying and improving my skills.
 <textarea id="feedback" cols="30" rows="5">
 
 </textarea>
-<input type="submit" value="send">
+<button  style="background-color: transparent;border: none;"><img src="send.png" alt="sending image" width="25" height="25"></button>
+
 </form>
 
 </footer>
-
+<hr>
+<div style="display: flex;flex-direction: row;justify-content: center;">
+<button style="margin: 15px 0;background-color: transparent;border: none;"><a href="#top"><img src="ret.png" width="35" height="35"></a></button>
+</div>
 </body>
 </html>
